@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fallingblocktweaks",
+  "version": "${version}",
+  "name": "Falling Block Tweaks",
+  "description": "Tweaks to falling blocks...",
+  "authors": [
+    "Team Hollow"
+  ],
+  "contact": {
+    "repo": "https://github.com/teamhollow/fallingblocktweaks",
+    "issues": "https://github.com/teamhollow/fallingblocktweaks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.teamhollow.fallingblocktweaks.FallingBlockTweaks"
+    ]
+  },
+  "mixins": [
+    "fallingblocktweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "minecraft": ">=1.16.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.teamhollow.fallingblocktweaks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FallingBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
